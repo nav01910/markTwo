@@ -1,8 +1,8 @@
 var readlineSync = require("readline-sync")
 console.log("-----WELCOME TO BASED QUIZ-----")
 
-readlineSync.question("Write your username to begin game: ")
-
+var username = prompt("Write your username to begin game: ")
+console.log("Welcome " + username + " !!")
 console.log("------------------------------")
 
 questionOne = {
